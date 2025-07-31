@@ -1,0 +1,35 @@
+<div id="template">
+  <div class="row">
+    <div class="col-md-12">
+      <header>
+        <h4>Phone Book Application</h4>
+        <h5>Powered by Angular</h5>
+        <hr>
+      </header>
+    </div>
+    <div class="row" style="height: auto;">
+      <div class="col-md-4">
+        <aside>
+          <nav>
+            <ul>
+              <li>
+                <a href="#" class="btn">ContactList</a>
+
+              </li>
+              <li>
+                <a href="#" class="btn">AddContact</a>
+
+              </li>
+              <li>
+                <a href="#" class="btn">LogOut</a>
+              </li>
+            </ul>
+          </nav>
+        </aside>
+      </div>
+      <div class="col-md-6">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  </div>
+</div>

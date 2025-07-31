@@ -1,0 +1,7 @@
+1.Create new Angular-app
+2.Create new model Book(bookId,bookName,price,year,lang,author)
+3.Crate a BookView component
+4.Add array of books in the bookview component
+5.Dispaly all the book details in the view page using table
+
+Note: apply required css and bootstrap.

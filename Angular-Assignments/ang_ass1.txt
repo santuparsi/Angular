@@ -1,0 +1,11 @@
+1.Create new angular project
+2.Create a model employee(employeeId,employeeName,joinDate,salary)
+3.Create a component view-employee and initialize employee and bind with view
+4.Create a component view-employees and initilize array of employees and bind with view
+5.apply required bootstrap css while working with view
+
+model command
+ng g class class_name
+
+component command
+ng g c component_name

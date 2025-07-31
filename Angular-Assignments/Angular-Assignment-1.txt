@@ -1,0 +1,4 @@
+1.Create a new Angular App
+2.Create a model class Movie(MovieId,MovieName,Lang,Year,Actor,Director)
+3.Crteate a component view-movie
+4.Initate array of movies in view-movie component and bing with view in table format.

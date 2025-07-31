@@ -1,0 +1,31 @@
+<div>
+    {{cities}}
+</div>
+<hr>
+<ul>
+    <li>Chennai</li>
+    <li>Delhi</li>
+    <li>Hyderabad</li>
+</ul>
+<hr>
+<ul>
+    <li *ngFor="let item of cities">
+        {{item}}
+    </li>
+</ul>
+<hr>
+<ol>
+    <li *ngFor="let item of cities">
+        {{item}}
+    </li>
+</ol>
+<hr>
+<table border="1">
+    <tr>
+        <th>Employees</th>
+    </tr>
+    <tr *ngFor="let emp of employees">
+        <td>{{emp}}</td>
+    </tr>
+</table>
+<!-- bind salaries array here using ngFor -->

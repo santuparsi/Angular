@@ -1,0 +1,2 @@
+Istanbul
+Istanbul is used by Karma to generate code coverage reports, which tells us the overall percentage of our Application being tested. This is a great way to track which components/Services/ pipes etc. have tests written and which don't. We can get some useful insights into how much of the Application is being tested and where.

@@ -1,0 +1,10 @@
+1.Create new AngularApp(user-app)
+2.Create Login Componets(desing login form in login.component.html)
+3.Create Register Component(desing regiter form in register.component.html)
+4.set Login and Register comonent as start up component and check the output.
+Note: use html,css and bootstrap to design login and regiter templates
+login should have username and password and singIn and SignUp button
+register should have (Name,Gender,Email,Mobile,DOB,Count(ddl),Username,
+Password,accept terms(checkbox) and submit and clear buttons)
+
+Note: each template should have Header and Footer

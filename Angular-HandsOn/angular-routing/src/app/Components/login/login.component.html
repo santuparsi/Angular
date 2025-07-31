@@ -1,0 +1,31 @@
+<div class="container">
+    <table class="table table-striped table-hover">
+        <tr>
+            <td>UserName</td>
+            <td>
+                <input type="text" class="form-control" [(ngModel)]="email">
+            </td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td>
+                <input type="password" class="form-control" [(ngModel)]="password">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button (click)="Validate()">Login</button>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <a [routerLink]="'/signup'">New User Register</a>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <span class="text-warning">{{errMsg}}</span>
+            </td>
+        </tr>
+    </table>
+</div>

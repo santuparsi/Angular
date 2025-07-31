@@ -1,0 +1,47 @@
+<div>
+<table border="1">
+    <tr>
+        <td>Enter Id</td>
+        <td><input type="number" name="" id="" [(ngModel)]="employee.employeeId"></td>
+    </tr>
+    <tr>
+        <td>Enter Name</td>
+        <td><input type="text" name="" id="" [(ngModel)]="employee.employeeName"></td>
+    </tr>
+    <tr>
+        <td>JoinDate</td>
+        <td><input type="date" name="" id="" [(ngModel)]="employee.joinDate"></td>
+    </tr>
+    <tr>
+        <td>Salary</td>
+        <td><input type="number" name="" id="" [(ngModel)]="employee.salary"></td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <button on-click="Save()">Add</button>
+            <button on-click="Searech()">Search</button>
+            <button on-click="Edit()">Update</button>
+        </td>
+    </tr>
+</table>
+</div>
+<hr>
+<div>
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>JoinDate</th>
+            <th>Salary</th>
+        </tr>
+        <tr *ngFor="let item of employees">
+            <td>{{item.employeeId}}</td>
+            <td>{{item.employeeName}}</td>
+            <td>{{item.joinDate|date}}</td>
+            <td>{{item.salary|currency:'INR'}}</td>
+            <td>
+                <button on-click="Delete(item.employeeId)">Delete</button>
+            </td>
+        </tr>
+    </table>
+</div>

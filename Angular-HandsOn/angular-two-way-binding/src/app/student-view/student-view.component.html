@@ -1,0 +1,56 @@
+
+<div class="container">
+    
+    <table class="table table-hover">
+        <tr>
+            <td>ID</td>
+            <td><input type="text" name="" id="" [(ngModel)]="obj.studentId" class="form-control"></td>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td><input type="text" name="" id="" [(ngModel)]="obj.studentName" class="form-control"></td>
+        </tr>
+        <tr>
+            <td>Age</td>
+            <td><input type="text" name="" id="" [(ngModel)]="obj.studentAge" class="form-control"></td>
+        </tr>
+        <tr>
+            <td>City</td>
+            <td><select [(ngModel)]="obj.studentCity" class="form-control">
+                <option value="Chennai">Chennai</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Bangalore">Bangalore</option>
+                <option value="Kolkatha">Kolkatha</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                
+                <button type="button" class="btn btn-default" on-click="Save()">Save</button>
+                
+            </td>
+        </tr>
+    </table>
+    <hr>
+    
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>City</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of students">
+                <td>{{item.studentId}}</td>
+                <td>{{item.studentName}}</td>
+                <td>{{item.studentAge}}</td>
+                <td>{{item.studentCity}}</td>
+            </tr>
+        </tbody>
+    </table>
+    
+</div>

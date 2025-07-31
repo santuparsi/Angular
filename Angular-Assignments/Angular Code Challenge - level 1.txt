@@ -1,0 +1,9 @@
+A golf Course can have amateur players and professional players who can register for Tournments after Player registration. (Master cup tournament for eg without prize money can be participated by both amateur & professionals but League cup having prize can have only Professionals to register). Any tournment having prize money can have only Professionals to be registered.
+
+Add players with player type, name, age , city, email id to be entered.
+Edit players and change them to Amateur to professional but reverse should throw an exception
+Delete amateur players only..if professional are deleted throw an invalid exception
+Add tournaments ..Tournamnet name, event month, hosting city, prize money if applicable.
+Display all tournamnets having prize money 
+Display all players registered for a tournamnet 
+

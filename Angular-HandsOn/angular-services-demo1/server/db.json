@@ -1,0 +1,19 @@
+{
+  "customers": [
+    {
+      "id": 1,
+      "name": "XYZ Traders",
+      "amount": 168
+    },
+    {
+      "id": "2",
+      "name": "shankar",
+      "amount": "45"
+    },
+    {
+      "id": "3",
+      "name": "Parag More",
+      "amount": "45000"
+    }
+  ]
+}

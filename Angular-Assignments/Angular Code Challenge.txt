@@ -1,0 +1,17 @@
+
+
+
+1.Create a database named -With Mobile Details and Store Details
+    column details for Mobile-IMEI ID varchar, ,Model Name varchar ,MobilePrice double.
+    column details for Store - StoreName , storeID , Location
+2.Create a web api project
+    -create web api project for CRUD using Entity framework
+    -Functionalities -> AddMobileDetails,ReadMobileDetails,UpdateMobiledetails and Delete Mobile
+            ->Add Store details , read Store details.
+3.Build UI Application using angular 7
+    -create a project in angular
+    -create a components as required
+    -create a service named Mobile service and Store service to include functionalities in that
+    -Include Necessary validations 
+ 
+

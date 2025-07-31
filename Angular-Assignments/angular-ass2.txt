@@ -1,0 +1,15 @@
+1. Create Student Registration Form using Template Driven form
+Student(Fname,Lname,Gender,Email,Phone,Username,Password)
+validate Student field
+All fileds are required
+Email should be valid format
+Mobile shoul be valid format
+Username should allow only alphanumerics
+Password should be 8 chars long
+2.Create Employee Registration form using Reactive form template
+EMployee(Eid,Ename,JoinDate,Emial,Mobile,Desgnation,Salary,Username,Password)
+All fields are required
+Email should be valid format
+Mobile shoul be valid format
+Username should allow only alphanumerics
+Password should be 8 chars long

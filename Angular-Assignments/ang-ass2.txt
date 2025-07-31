@@ -1,0 +1,18 @@
+1.Create EmployeeAPI project
+2.Create entities like Project(ProjectCode(Pk),ProjectName,TeamSize) and Employee(EmployeeId,EmployeeName,JoinDate,ProjectCode(FK))
+3.use EF Core Code-first to create tables
+4.Create Repositories for Project And Employee
+	ProjectRepository
+	AddProject
+	EditProject
+	EmployeeRepository
+	AddEmployee
+	GetAllEmployees
+	GetEmployeeById
+	GetEmployeeByProjectCode
+	DeleteEmployee
+	UpdateEmployee
+5.Create Project and EmployeeControllers to invoke the Repo functions
+6.Create new Angular Project
+7.Invoke api calls in angular using angular services
+8.Create required componnents in angular to add and display employee details.

@@ -1,0 +1,38 @@
+<div class="container">
+
+    <table class="table table-hover">
+        <tr>
+            <td>Enter Id</td>
+            <td>
+                <input type="number" [(ngModel)]="item.pid">
+            </td>
+        </tr>
+        <tr>
+            <td>Enter Name</td>
+            <td>
+                <input type="text" [(ngModel)]="item.pname">
+            </td>
+        </tr>
+        <tr>
+            <td>Price</td>
+            <td>
+                <input type="number" [(ngModel)]="item.price">
+            </td>
+        </tr>
+        <tr>
+            <td>Stock</td>
+            <td>
+                <input type="number" [(ngModel)]="item.stock">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button (click)="Save()" class="btn">Add</button>
+                <button (click)="Details()" class="btn">Search</button>
+                <button (click)="Edit()" class="btn">Edit</button>
+                <button (click)="Delete()" class="btn">Delete</button>
+            </td>
+        </tr>
+    </table>
+
+</div>
