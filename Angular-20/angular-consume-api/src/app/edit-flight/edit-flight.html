@@ -1,0 +1,16 @@
+<div class="container">
+    <h1>Add Flight</h1>
+    <form (submit)="updateFlight()">
+
+        <label for="flightName">Flight Name:</label>
+        <input type="text" id="flightName" [(ngModel)]="flight.flightName" name="flightName" required>
+        <br>
+        <label for="flightCode">Flight Code:</label>
+        <input type="text" id="flightCode" [(ngModel)]="flight.flightCode" name="flightCode" required>
+        <br>
+        <label for="seats">Seats:</label>
+        <input type="number" id="seats" [(ngModel)]="flight.seats" name="seats" required>
+        <br>
+        <button type="submit">Add Flight</button>
+    </form>
+</div>

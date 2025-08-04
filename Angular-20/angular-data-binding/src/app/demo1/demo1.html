@@ -1,0 +1,11 @@
+<p>demo1 works!</p>
+<h1>{{title}}</h1>
+<p>Your Total Count:{{count}}</p>
+<ul>
+    <li *ngFor="let city of cities">{{city}}</li>
+</ul>
+<p *ngIf="item">Product ID: {{item.id}}</p>
+<p *ngIf="item">Product Name: {{item.name}}</p>
+<p *ngIf="item">Product Price: {{item.price}}</p>
+<p *ngIf="item">Product Stock: {{item.stock}}</p>
+<p *ngIf="!item">No product details available.</p>

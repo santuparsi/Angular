@@ -1,0 +1,22 @@
+<div class="container">
+    <h1>View Flights</h1>
+    <table border="1" *ngIf="flights.length > 0">
+        <thead>
+            <tr>
+                <th>Flight ID</th>
+                <th>Flight Name</th>
+                <th>Flight Code</th>
+                <th>Seats</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let flight of flights">
+                <td>{{ flight?.flightId }}</td>
+                <td>{{ flight?.flightName }}</td>
+                <td>{{ flight?.flightCode }}</td>
+                <td>{{ flight?.seats }}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<pre>{{ flights | json }}</pre>
